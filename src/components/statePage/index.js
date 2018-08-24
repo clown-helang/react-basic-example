@@ -8,9 +8,12 @@ class StatePage extends Component {
     }
   }
   add = () =>{
+    let _num = this.state.num;
+    _num++;
     this.setState({
-      num:++this.state.num //state 值改变
+      num:_num //state 值改变
     });
+    //this.setState({num:++this.state.num}) //错误的写法
   };
   clearNum = ()=>{
     this.setState({ //state 值改变
