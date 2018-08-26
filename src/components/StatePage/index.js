@@ -24,8 +24,7 @@ class StatePage extends Component {
     return (
       <div>
         <div>{this.state.num}</div>
-        <div><button onClick={this.add}>点击累加</button></div>
-        <div><button onClick={this.clearNum}>清零</button></div>
+        <div><button onClick={this.add}>点击累加</button><button style={{marginLeft:20}} onClick={this.clearNum}>清零</button></div>
       </div>
     );
   }
