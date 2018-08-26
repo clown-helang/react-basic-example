@@ -6,7 +6,7 @@ const person = {
    age:'56'
 };
 
-class propsMultipleParameters extends Component {
+class PropsMultipleParameters extends Component {
   render(){
     return (
       <div>
@@ -17,4 +17,4 @@ class propsMultipleParameters extends Component {
 
 }
 
-export default propsMultipleParameters;
+export default PropsMultipleParameters;
