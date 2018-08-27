@@ -1,5 +1,5 @@
+/* index.js */
 import React,{ Component } from 'react';
-
 class StatePage extends Component {
   constructor(props){
     super(props);
@@ -19,17 +19,19 @@ class StatePage extends Component {
     this.setState({ //state 值改变
       num:0
     })
-  }
+  };
   render(){
     return (
       <div>
         <div>{this.state.num}</div>
-        <div><button onClick={this.add}>点击累加</button><button style={{marginLeft:20}} onClick={this.clearNum}>清零</button></div>
+        <div>
+          <button onClick={this.add}>点击累加</button>
+          <button style={{marginLeft:20}} onClick={this.clearNum}>清零</button>
+        </div>
       </div>
     );
   }
 
 }
-
-
 export default StatePage;
+

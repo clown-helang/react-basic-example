@@ -8,7 +8,9 @@ import PropsSingle from './components/PropsSingle';
 import PropsMultipleParameters from './components/PropsMultipleParameters';
 import PropsDeconstruction from './components/PropsDeconstruction';
 import DefaultProps from './components/DefaultProps';
-import PropsPage from './components/PropTypes'
+import PropsTypes from './components/PropTypes'
+import PropsPage from './components/PropsPage'
+import FunctionPage from './components/FunctionPage'
 function RouterConfig({ history }) {
   return (
     <Router history={history}>
@@ -21,7 +23,9 @@ function RouterConfig({ history }) {
         <Route path="/propsMultipleParameters" exact component={PropsMultipleParameters} />
         <Route path="/propsDeconstruction" exact component={PropsDeconstruction} />
         <Route path="/defaultProps" exact component={DefaultProps} />
-        <Route path="/propTypes" exact component={PropsPage} />
+        <Route path="/propTypes" exact component={PropsTypes} />
+        <Route path="/props" exact component={PropsPage} />
+        <Route path="/function" exact component={FunctionPage} />
       </Switch>
     </Router>
   );
