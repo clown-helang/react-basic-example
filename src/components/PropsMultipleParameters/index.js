@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-import Children from './children';
+import Children from './Children';
 const person = {
   firstname:'Bill',
   lastname:'Gates',

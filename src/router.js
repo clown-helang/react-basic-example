@@ -11,6 +11,9 @@ import DefaultProps from './components/DefaultProps';
 import PropsPage from './components/PropTypes'
 import LifeCycle from './components/LifeCycle'
 import ComponentDemo from './components/ComponentDemo'
+import PropsTypes from './components/PropTypes'
+import PropsPage from './components/PropsPage'
+import FunctionPage from './components/FunctionPage'
 function RouterConfig({ history }) {
   return (
     <Router history={history}>
@@ -26,6 +29,9 @@ function RouterConfig({ history }) {
         <Route path="/propTypes" exact component={PropsPage} />
         <Route path="/lifeCycle" exact component={LifeCycle} />
         <Route path="/componentDemo" exact component={ComponentDemo} />
+        <Route path="/propTypes" exact component={PropsTypes} />
+        <Route path="/props" exact component={PropsPage} />
+        <Route path="/function" exact component={FunctionPage} />
       </Switch>
     </Router>
   );

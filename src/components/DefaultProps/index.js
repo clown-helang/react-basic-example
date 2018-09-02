@@ -1,5 +1,5 @@
 import React,{ Component } from 'react';
-import DefaultPropsChildren from './children';
+import DefaultPropsChildren from './Children';
 const person={
   name:'小明',
   age:12
