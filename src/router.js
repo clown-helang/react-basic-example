@@ -8,7 +8,6 @@ import PropsSingle from './components/PropsSingle';
 import PropsMultipleParameters from './components/PropsMultipleParameters';
 import PropsDeconstruction from './components/PropsDeconstruction';
 import DefaultProps from './components/DefaultProps';
-import PropsPage from './components/PropTypes'
 import LifeCycle from './components/LifeCycle'
 import ComponentDemo from './components/ComponentDemo'
 import PropsTypes from './components/PropTypes'
